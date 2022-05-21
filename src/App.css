@@ -2,7 +2,45 @@
   text-align: center;
 }
 .Header {
-  color: #443e3e;
+  /* color: #443e3e; */
+  color: black;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.card-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.card {
+  width: 95%;
+  background-color: rgb(103, 171, 216, 0.8);
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  text-shadow: 1px 1px 5px #fff;
+  margin-bottom: 2%;
+  
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+
+.card-header button {
+  background-color: inherit;
+  border: none;
+}
+
+
+.hide {
+  display: none;
+}
+
+
 /* write your parent styles in here for your App.js */
