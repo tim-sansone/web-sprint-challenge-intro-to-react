@@ -15,7 +15,7 @@
   width: 30%;
 }
 
-/* .card {
+.card {
   width: 95%;
   background-color: rgb(103, 171, 216, 0.8);
   border: 1px solid black;
@@ -25,29 +25,28 @@
   margin-bottom: 2%;
   overflow: hidden;
   height: 3.6rem;
-  transition: all 0.5s
-} */
+  transition: all 0.5s;
+} 
 
-/* .card-header {
+.card-header {
   display: flex;
   justify-content: space-between;
   padding: 0 2%;
-} */
+}
 
 
-
-/* .card-header button {
+.card-header button {
   background-color: inherit;
   border: none;
   transition: all 0.5s;
-} */
+}
 
 .up {
   transform: rotateX(180deg);
 }
 
 .unhide {
-  height: fit-content;
+  height: 18rem;
 }
 
 
